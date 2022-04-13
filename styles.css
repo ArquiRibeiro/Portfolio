@@ -225,7 +225,7 @@ section{
 
 #footer{
     padding: 16px;
-    clip-path: polygon(0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%);
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0 0);
     animation: footerTranslate 1000ms;
     animation-play-state: paused;
 }
@@ -460,6 +460,10 @@ a.dark:active{
 
     #about .container1 .container2{
         align-items: flex-start;
+    }
+
+    #footer{
+        clip-path: polygon(100% 0%, 80% 50%, 100% 100%, 0 100%, 0 0)
     }
 
     #footer ul li a{
