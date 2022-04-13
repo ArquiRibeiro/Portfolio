@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIP portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light">
+    <!--NAV-BAR-->
+    <header class="header flex-center light">
+        <img class="icon light" src="assets/building.svg" alt="">
+        <h2 class="light">ArquiRibeiro</h2>
+        <img class="icon light" src="assets/cpu.svg" alt="">
+    </header>
+
+    <div class="mobile nav-bar light">
+        <nav class="flex-evenly-center">            
+            <a class="flex-center" href="#about-scroll"><img class="icon light" src="assets/person-lines-fill.svg" alt=""></a>
+            <a class="flex-center" href="#projects-scroll"><img class="icon light" src="assets/hammer.svg" alt=""></a>
+            <a class="flex-center" href="#contact-scroll"><img class="icon light" src="assets/send-fill.svg" alt=""></a>
+            <a class="flex-center" ><img class="icon light colorMode" src="assets/circle-half.svg" alt=""></a>
+        </nav>
+    </div>
+
+    <div class="desktop nav-bar light">
+        <nav class="flex-between-center">
+            <div class="container1 flex-start-center">
+                <a class="light" href="#about-scroll">Sobre</a>
+                <a class="light" href="#projects-scroll">Projetos</a>
+                <a class="light" href="#contact-scroll">Contato</a>
+            </div>
+
+            <div class="container2">
+                <img class="icon light colorMode" src="assets/circle-half.svg" alt="">
+            </div>
+        </nav>
+    </div>
+
+    <!--HERO-->
+    <section id="hero" class="light">
+        <div class="flex-column-center">
+            <div class="container1 flex-start-center">
+                <h2 class="arrow light">></h2>
+                <div class="typewriter flex-start-center">
+                    <h2 class="observer-target light">Hello World!</h2>
+                </div>
+            </div>
+            <p>Eu sou <span class="observer-target light">Leonardo.</span><br>Bem vindo ao meu portfolio!</p>
+            <img class="light" src="assets/LivingRoom_1080p.jpg" alt="Living Room Render">
+        </div>
+    </section>
+
+    <!--ABOUT-->
+    <section id="about" class="flex-column-center">
+        <div id="about-scroll" class="scroller"></div>
+        <h2 class="light">Sobre Mim</h2>
+        <div class="container1 flex-center">
+            <img src="assets/_MG_7824(2).jpg" alt="">
+            <div class="container2 flex-column-center">
+                
+                <p class="light">Olá! Sou Leonardo Ribeiro. Me formei como técnico em edificações no IFMG Campus Santa Luzia, 
+                    onde desenvolvi um grande interesse por TI e Arquitetura. Possuo conhecimentos em ambas as áreas, mas atualmente, 
+                    busco me inserir no mercado de TI em Front-End, utilizando linguagens como HTML, CSS e JS.
+                </p>
+                <ul class="flex-center">
+                    <li><a href="https://github.com/ArquiRibeiro" class="flex-start-center light"><img class = "icon light" src="assets/github.svg"></a></li>
+                    <li><a href="https://www.linkedin.com/in/leonardo-ribeiro-80ba40227/"class="flex-start-center light"><img class = "icon light" src="assets/linkedin.svg"></a></li>
+                    <li><a href="mailto:leonardoriband@gmail.com" class="flex-start-center light"><img class = "icon light" src="assets/envelope-plus-fill.svg"></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--PROJECTS-->
+    <section id="projects" class="flex-column-center">
+        <div id="projects-scroll" class="scroller"></div>
+        <h2 class="light">Meus Projetos Pessoais</h2>
+        <div class="flex-center">
+            <div class="project-entry flex-column-center">
+                <div class="overflow-hidden">
+                    <img src="assets/Black_Hot_Coffee.png" alt="BlackHotCoffee">
+                </div>            
+                <a href="https://github.com/ArquiRibeiro/Black Hot Coffee" target="_blank" rel="noopener noreferrer">Repositório (GitHub)</a>
+                <img class = "icon light" src="assets/cup.svg">
+            </div>
+            <div class="project-entry flex-column-center">
+                <div class="overflow-hidden">
+                    <img src="assets/Cozinhando_Com_Espinhos.png" alt="Cozinhando Com Espinhos">                
+                </div>
+                <a href="https://github.com/ArquiRibeiro/Website-Receitas" target="_blank" rel="noopener noreferrer">Repositório (GitHub)</a>
+                <img class = "icon light" src="assets/flower1.svg">
+            </div>
+            <div class="project-entry flex-column-center">
+                <div class="overflow-hidden">
+                    <img src="assets/Forza.png" alt="Forza">
+                </div>            
+                <a href="https://github.com/ArquiRibeiro/Website-Forza" target="_blank" rel="noopener noreferrer">Repositório (GitHub)</a>
+                <img class = "icon light" src="assets/lightning-charge.svg">
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACT IFRAME-->
+    <section id="contact" class="flex-center">
+        <div id="contact-scroll" class="scroller"></div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfUJZ9Jsq4oxIQitG7-0Sxk-EXK_a59oTvxFUINErPg9prD3Q/viewform?embedded=true"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0">
+        Carregando…
+        </iframe>
+    </section>
+
+    <!--FOOTER-->
+    <footer id="footer" class="observer-target light">
+        <ul>
+            <li class="flex-start-center"><a href="https://github.com/ArquiRibeiro" class="flex-start-center light"><img class = "icon light" src="assets/github.svg"><span>GitHub</span></a></li>
+            <li class="flex-start-center"><a href="https://www.linkedin.com/in/leonardo-ribeiro-80ba40227/" class="flex-start-center light"><img class = "icon light" src="assets/linkedin.svg"><span>LinkedIn</span></a></li>
+            <li class="flex-start-center"><a href="mailto:leonardoriband@gmail.com" class="flex-start-center light"><img class = "icon light" src="assets/envelope-plus-fill.svg"><span>E-mail</span></a></li>
+        </ul>
+    </footer>
+    
+    <!--SCRIPTS-->
+    <script src="script.js"></script>
+</body>
+</html>
